@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UFT-8">
+    <meta name="renderer" content="webkit">
+    <meta name="keywords" content="NAZOrip">
+    <meta name="description" content="online pic quality comparison">
+    <title>NAZOrip online picture quality comparison</title>
+    <link rel="icon" href="https://nazorip.site/favicon.ico" mce_href="https://nazorip.site/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="https://nazorip.site/favicon.ico" mce_href="https://nazorip.site/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet' href="{{url_for('static', filename='gui_comprssed.css')}}">
+    <style>html,body{margin:0;padding:0}</style>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+<div class="navibar">
+    <ul>
+    <li><font class="rate" id="times">- 1x -</font></li>
+    <li><a href="#" onclick="zoomin()">zoom in</a></li>
+    <li><a href="#" onclick="zoomout()">zoom out</a></li>
+    </ul>
+</div>
+<div id="outter">
+    <h1 id='loading'>Loading...</h1>
+    <div class="slide-comparison" id="leftframe">
+        <img id="imgright">
+        <div class="resized" id='rightframe'><img id="imgleft" data-id="2"></div>
+        <div class="divider" ></div>
+    </div>
+</div>
+<script>var picurl1 = "{{pic_url1}}"; var picurl2 = "{{pic_url2}}"</script>
+<script src="{{url_for('static', filename='interact_compressed.js')}}"></script>
+<script src="{{url_for('static', filename='slider_compressed.js')}}"></script>
+</body>
+</html>
