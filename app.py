@@ -1,6 +1,7 @@
 from flask import Flask
 from flask import render_template, request ,abort
 from flask_cors import CORS
+from test import pic1 , pic2
 
 app = Flask(__name__)
 CORS(app, supports_credentials=True)
@@ -18,4 +19,9 @@ def index():
     return render_template("index.html" ,pic_url1 = url1 , pic_url2 = url2)
 
 if __name__ == '__main__':
-    app.run(port='5441',debug=False)
+    debug = True
+    if debug:
+        from test import pic1 , pic2
+        pic1 = app.route('/pic1.jpg')(pic1)
+        pic2 = app.route('/pic2.jpg')(pic2)
+    app.run(port='5441',debug=debug)
