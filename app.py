@@ -1,7 +1,6 @@
 from flask import Flask
 from flask import render_template, request ,abort
 from flask_cors import CORS
-from test import pic1 , pic2
 
 app = Flask(__name__)
 CORS(app, supports_credentials=True)
