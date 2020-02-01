@@ -1,15 +1,19 @@
-# Usage
+<p align="center"><img width="500"src="https://github.com/GoodManWEN/Compare_Picture_Online/blob/master/logo/LOGO.png"></p>
 
-### Set up server
+
+## How to use?
+
+#### Set up server
 
     git clone https://github.com/GoodManWEN/Compare_Picture_Online.git
     cd Compare_Picture_Online
     pip3 install -r requirements.txt
     python3 app.py
 
-### Enjoy!
+#### Enjoy!
 Then open your browser , type in 127.0.0.1:5441/app?url1=[PICURL1]&url2=[PICURL2]
  / or call it in a <iframe>.
+    
 #### e.g.
 There's two picture routed by default in debug mod,
 so you can access demo by this url:
@@ -18,8 +22,8 @@ so you can access demo by this url:
     
 remember to turn off 'debug' option in production.
     
-# Demo url
-### API
+## Demo url
+#### API
 https://compare.nazorip.site/app
 
 ![](https://github.com/GoodManWEN/Compare_Picture_Online/blob/master/test/screenshot.jpg)
