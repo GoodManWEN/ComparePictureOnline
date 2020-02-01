@@ -21,3 +21,5 @@ remember to turn off 'debug' option in production.
 # Demo url
 ### API
 https://compare.nazorip.site/app
+
+![](https://github.com/GoodManWEN/Compare_Picture_Online/blob/master/test/screenshot.jpg)
