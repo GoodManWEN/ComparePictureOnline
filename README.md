@@ -26,4 +26,8 @@ remember to turn off 'debug' option in production.
 #### API
 https://compare.nazorip.site/app
 
+e.g.
+
+[https://compare.nazorip.site/app?url1=https://cdn.jsdelivr.net/gh/GoodManWEN/ComparePictureOnline/test/20191017163234957.jpg&url2=https://cdn.jsdelivr.net/gh/GoodManWEN/ComparePictureOnline/test/20191017163234957_2.jpg](https://compare.nazorip.site/app?url1=https://cdn.jsdelivr.net/gh/GoodManWEN/ComparePictureOnline/test/20191017163234957.jpg&url2=https://cdn.jsdelivr.net/gh/GoodManWEN/ComparePictureOnline/test/20191017163234957_2.jpg)
+
 ![](https://github.com/GoodManWEN/Compare_Picture_Online/blob/master/test/screenshot.jpg)
